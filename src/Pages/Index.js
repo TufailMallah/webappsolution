@@ -15,9 +15,9 @@ function Home() {
        
 <section className="hero">
     
-    <div className="container mb-2">
+    <div className="container mb-2 mt-5">
         <div className="row">
-            <div className="col-12 offset-md-1 col-md-11">
+            <div className="col-12 offset-md-1 col-md-11 ">
                 <div className="swiper-container hero-slider">
                     <div className="swiper-wrapper">
                  <div className="swiper-slide slide-content d-flex align-items-center">
