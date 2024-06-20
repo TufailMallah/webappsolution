@@ -39,9 +39,9 @@ function About() {
                             <p className="text-center">WebsiteAppSolutions: Turning Ideas into Experiences.</p>
                         </div>
                         <div className="col-md-5 mb-4" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-                            <img src="assets/images/gallery2.jpg" alt="" className="about_img img-fluid" style={{ maxWidth: '100%', height: 'auto' }} />
+                            <img src="assets/images/about1.jpg" alt="" className="about_img img-fluid" style={{ maxWidth: '100%', height: 'auto' }} />
                         </div>
-                        <div className="col-md-7" data-aos="fade-left" data-aos-delay="0" data-aos-offset="0">
+                        <div className="col-md-7 mt-5" data-aos="fade-left" data-aos-delay="0" data-aos-offset="0">
                             <h3>WHO WE ARE</h3>
                             <p>WebsiteAppSolutions is a dynamic design and branding agency with a global presence. We specialize in crafting thoughtful digital experiences and captivating brand aesthetics that resonate with audiences worldwide.</p>
                             <br />

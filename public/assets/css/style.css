@@ -1288,11 +1288,12 @@ background-size: cover;
 /* about */
 
 .about_img {
-  border: 4px solid #9604a9;
-  width: 100%;
-  height: 80vh;
+  border: 4px solid #ffff;
+  /* width: 100%;
+  height: 80vh; */
   border-radius: 50px;
   transition: transform 0.3s ease; /* Add transition for smooth effect */
+  box-shadow: 0 4px 8px rgba(106, 104, 104, 0.778), 0 6px 20px rgba(175, 169, 169, 0.959); /* Example box shadow */
 }
 
 .about_img:hover {
