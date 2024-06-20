@@ -101,7 +101,7 @@ function Login() {
                                         placeholder="Enter Email"
                                         required
                                     />
-                                    <div className="text-danger">{emailError}</div>
+                                    <div className="text-light">{emailError}</div>
                                 </div>
                                 <div className="mb-3">
                                     <label htmlFor="password" className="form-label">Password</label>
@@ -115,13 +115,13 @@ function Login() {
                                         placeholder="Enter Password"
                                         required
                                     />
-                                    <div className="text-danger">{passwordError}</div>
+                                    <div className="text-light">{passwordError}</div>
                                 </div>
                                 <div className="d-grid gap-2 mt-5">
                                     <button onClick={handleLogin} className="btn btn-primary">Login</button>
                                 </div>
                                 {successMessage && <div className="text-success">{successMessage}</div>} {/* Render success message */}
-                                {errorMessage && <div className="text-danger">{errorMessage}</div>}
+                                {errorMessage && <div className="text-light">{errorMessage}</div>}
                             </div>
                         </div>
                     </div>
