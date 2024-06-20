@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import Stylo from '../components/login.module.css'; 
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { ClipLoader } from 'react-spinners'; // Import the loader
 
 function Login() {
     const navigate = useNavigate(); // Initialize useNavigate hook
@@ -12,6 +13,7 @@ function Login() {
     const [passwordError, setPasswordError] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState(''); // State for success message
+    const [loading, setLoading] = useState(false); // State for loading
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -27,6 +29,7 @@ function Login() {
         setPasswordError('');
         setErrorMessage('');
         setSuccessMessage(''); // Clear success message
+        setLoading(true); // Start loading
 
         let valid = true;
         if (!email) {
@@ -54,19 +57,23 @@ function Login() {
                     setSuccessMessage('Login successful');
                     // Redirect to dashboard after 2 seconds
                     setTimeout(() => {
+                        setLoading(false); // Stop loading
                         navigate('/dashboard'); // Redirect to the dashboard route
                     }, 2000);
                 } else {
                     console.error('Login failed');
                     setErrorMessage('Login failed. Please check your credentials.');
+                    setLoading(false); // Stop loading on failure
                 }
             } catch (error) {
                 console.error('An error occurred while logging in:', error);
                 setErrorMessage('An error occurred while logging in. Please try again later.');
+                setLoading(false); // Stop loading on error
             }
+        } else {
+            setLoading(false); // Stop loading if validation fails
         }
     };
-    
 
     return (
         <Fragment>
@@ -74,9 +81,13 @@ function Login() {
                 <div className="container">
                     <div className="row justify-content-center mt-2">
                         <div className="col-md-6 col-lg-6">
+                            
                             <div className={`${Stylo['form-container']} shadow p-4 rounded`}>
                                 <img src="assets/images/logo.png" alt="Client" />
                                 <h3 className="text-center mb-4">Sign In</h3>
+                                <div className="d-flex justify-content-center mb-4">
+                                {loading && <ClipLoader color={"#9604a9"} loading={loading} size={50} />}
+                            </div>
                                 <div className="mb-3">
                                     <label htmlFor="username" className="form-label">Email</label>
                                     <input
@@ -111,7 +122,6 @@ function Login() {
                                 </div>
                                 {successMessage && <div className="text-success">{successMessage}</div>} {/* Render success message */}
                                 {errorMessage && <div className="text-danger">{errorMessage}</div>}
-                                
                             </div>
                         </div>
                     </div>
