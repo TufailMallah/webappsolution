@@ -77,8 +77,8 @@ function Services() {
                             <h4 class="mb-3">Website Development</h4>
                             <p class="mb-4">Crafting exceptional websites that elevate your brand. Our focus on innovation ensures online success, driving meaningful audience engagement and setting you apart in the digital realm.</p>
                         </div>
-                        {/* <a href="#" class="btn-primary px-4 py-2 rounded-pill read-more-btn">Read More</a> */}
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/web_development">
+                        {/* <a href="#" class="btn-primary px-4 py-2  read-more-btn">Read More</a> */}
+                        <Link className=" btn btn-primary px-4 py-2  read-more-btn" to="/web_development">
                         Read More
             </Link>
                     </div>
@@ -92,7 +92,7 @@ function Services() {
                             <h4 class="mb-3">Digital Marketing</h4>
                             <p class="mb-4">Excel in elevating your brand through strategic digital solutions. Trust us for tangible results in dominating the online sphere and boosting your brand's presence.</p>
                         </div>
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/digital_marketing">
+                        <Link className=" btn btn-primary px-4 py-2  read-more-btn" to="/digital_marketing">
                         Read More
             </Link>
                     </div>
@@ -106,7 +106,7 @@ function Services() {
                             <h4 class="mb-3">Mobile App Development</h4>
                             <p class="mb-4">Your partner for expert application development, delivering tailored innovation to set your brand apart and drive success in the digital market.</p>
                         </div>
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/app_development">
+                        <Link className="btn btn-primary px-4 py-2  read-more-btn" to="/app_development">
                         Read More
             </Link>
                     </div>
@@ -120,7 +120,7 @@ function Services() {
                             <h4 class="mb-3">Brand Identity</h4>
                             <p class="mb-4">Crafting captivating identities that set you apart in the digital landscape. Let's collaborate for an unforgettable brand identity that leaves a lasting impact.</p>
                         </div>
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/brand_identity">
+                        <Link className="btn btn-primary px-4 py-2  read-more-btn" to="/brand_identity">
                         Read More
             </Link>
                     </div>
@@ -134,7 +134,7 @@ function Services() {
                             <h4 class="mb-3">Graphic Designing</h4>
                             <p class="mb-4">Crafting captivating visuals that leave a lasting impression and set your brand apart in today's competitive landscape, ensuring your brand stands out.</p>
                         </div>
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/graphic_design">
+                        <Link className=" btn btn-primary px-4 py-2  read-more-btn" to="/graphic_design">
                         Read More
             </Link>
                     </div>
@@ -148,7 +148,7 @@ function Services() {
                             <h4 class="mb-3">UI/UX Design</h4>
                             <p class="mb-4">Elevate user experience with our unmatched expertise, crafting engaging solutions that not only meet but exceed user expectations, setting your brand apart from the competition.</p>
                         </div>
-                        <Link className="btn-primary px-4 py-2 rounded-pill read-more-btn" to="/uiux_design">
+                        <Link className="btn btn-primary px-4 py-2  read-more-btn" to="/uiux_design">
                         Read More
             </Link>
                     </div>

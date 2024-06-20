@@ -112,7 +112,7 @@ function Contact() {
 
                                     <button
     type="submit"
-    className="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill"
+    className="w-100 btn btn-primary form-control p-3 border-primary bg-primary btn-small"
     onMouseDown={(e) => e.target.style.backgroundColor = 'purple'}
     onMouseUp={(e) => e.target.style.backgroundColor = ''}
 >
