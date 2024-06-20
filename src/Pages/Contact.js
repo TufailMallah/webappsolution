@@ -110,7 +110,15 @@ function Contact() {
                                     </div>
 
 
-                                    <button type="submit" className="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill" >Submit Now</button>
+                                    <button
+    type="submit"
+    className="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill"
+    onMouseDown={(e) => e.target.style.backgroundColor = 'purple'}
+    onMouseUp={(e) => e.target.style.backgroundColor = ''}
+>
+    Submit Now
+</button>
+
                                 </form>
                             </div>
                         <div className="col-md-6 col-lg-5 mt-3">

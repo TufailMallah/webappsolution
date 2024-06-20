@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMagnet,faBezierCurve,faMobile, } from '@fortawesome/free-solid-svg-icons';
+import {faMagnet,faBezierCurve,faMobile,faDesktop,faChartSimple,faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer'; 
@@ -73,7 +73,7 @@ function Services() {
                 <div class="bg-light service-item">
                     <div class="service-content d-flex flex-column p-4 mb-5">
                         <div class="service-content-icon text-center">
-                            <FontAwesomeIcon icon={faCode} className="custom-icon" />
+                            <FontAwesomeIcon icon={faDesktop} className="custom-icon" />
                             <h4 class="mb-3">Website Development</h4>
                             <p class="mb-4">Crafting exceptional websites that elevate your brand. Our focus on innovation ensures online success, driving meaningful audience engagement and setting you apart in the digital realm.</p>
                         </div>
@@ -88,7 +88,7 @@ function Services() {
                 <div class="bg-light service-item">
                     <div class="service-content d-flex flex-column p-4 mb-5">
                         <div class="service-content-icon text-center">
-                            <FontAwesomeIcon icon={faCode} className="custom-icon" />
+                            <FontAwesomeIcon icon={faChartSimple} className="custom-icon" />
                             <h4 class="mb-3">Digital Marketing</h4>
                             <p class="mb-4">Excel in elevating your brand through strategic digital solutions. Trust us for tangible results in dominating the online sphere and boosting your brand's presence.</p>
                         </div>
@@ -116,7 +116,7 @@ function Services() {
                 <div class="bg-light service-item">
                     <div class="service-content d-flex flex-column p-4 mb-5">
                         <div class="service-content-icon text-center ">
-                        <FontAwesomeIcon icon={faMagnet} className="custom-icon" />
+                        <FontAwesomeIcon icon={faCodeBranch} className="custom-icon" />
                             <h4 class="mb-3">Brand Identity</h4>
                             <p class="mb-4">Crafting captivating identities that set you apart in the digital landscape. Let's collaborate for an unforgettable brand identity that leaves a lasting impact.</p>
                         </div>
