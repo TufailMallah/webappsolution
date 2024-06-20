@@ -1,15 +1,20 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import Navbar from './Navbar'; 
 import Footer from './Footer'; 
 
 function About() {
+    useEffect(() => {
+        // Ensure no overflow on load
+        document.body.style.overflowX = 'hidden';
+    }, []);
+
     return (
         <Fragment>
             <Navbar />
             
-            <section className="about_background" style={{ height: "70vh" }}>
-                <div className="container">
-                    <div className="row">
+            <section className="about_background" style={{ height: "70vh", overflow: "hidden" }}>
+                <div className="container-fluid p-0">
+                    <div className="row no-gutters">
                         <div className="col-12">
                             <div className="swiper-container hero-slider">
                                 <div className="swiper-wrapper">
@@ -34,7 +39,7 @@ function About() {
                             <p className="text-center">WebsiteAppSolutions: Turning Ideas into Experiences.</p>
                         </div>
                         <div className="col-md-5 mb-4" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-                            <img src="assets/images/gallery2.jpg" alt="" className="about_img img-fluid" />
+                            <img src="assets/images/gallery2.jpg" alt="" className="about_img img-fluid" style={{ maxWidth: '100%', height: 'auto' }} />
                         </div>
                         <div className="col-md-7" data-aos="fade-left" data-aos-delay="0" data-aos-offset="0">
                             <h3>WHO WE ARE</h3>

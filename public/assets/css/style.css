@@ -24,6 +24,31 @@
 /*-----------------------------------
     1 - Header
 ------------------------------------*/
+/* Add this to your CSS file */
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure box-sizing is applied to all elements */
+html {
+  box-sizing: border-box;
+}
+
+
+
+body, html {
+  overflow-x: hidden;
+}
+
+/* Ensure images and sections do not cause overflow */
+.about_img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 body{
   background-color: #000;
