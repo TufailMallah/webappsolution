@@ -2307,6 +2307,7 @@ textarea.form-control {
   content: "";
   width: calc(100% + 2px);
   height: 100%;
+  /* margin:20px; */
   background-color: rgba(24, 9, 53, 0.77);
   border-top-right-radius: 1.5625rem;
   border-bottom-left-radius: 1.5625rem;

@@ -141,7 +141,9 @@
 
 
 @media (min-width: 320px) and (max-width: 767px) {
-  
+  .btn{
+    justify-content: center;
+  }
   .cta-content {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -173,6 +175,7 @@
     margin-bottom: 20px;
   }
   .hero .slide-content p {
+  
     /* color: #170936; */
     -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
             transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
@@ -181,7 +184,7 @@
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     /* margin-bottom: 10px; */
-    font-size: 10px;
+    /* font-size: 10px; */
     /* text-size-adjust: 2px; */
   }
   .hero .slide-content p::after {

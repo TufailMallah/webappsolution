@@ -87,10 +87,10 @@ function Home() {
           </div>
 
           <span className="arr-left">
-            <i className="fa fa-angle-left mb-5"></i>
+            <i className="fa fa-angle-left "></i>
           </span>
           <span className="arr-right">
-            <i className="fa fa-angle-right mb-5"></i>
+            <i className="fa fa-angle-right "></i>
           </span>
         </div>
         <div className="texture"></div>
