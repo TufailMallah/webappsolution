@@ -155,14 +155,14 @@ function Home() {
                         <Link className="post-btn" to="/web_development"><i className="fa fa-arrow-right"></i></Link>
                     </div>
                     <div className="post-thumb m-2">
-                        <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Post 1" style={{ width: "100%", height: "50vh" }} />
+                        <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Post 1" style={{ width: "100%", height: "50vh", borderRadius: "20px" ,border:"5px solid #ffff" }} />
                     </div>
                 </div>
             </div>
             <div className="col-lg-6">
                 <div className="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-duration="800">
                     <div className="post-thumb m-2">
-                        <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" }} />
+                        <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" , borderRadius: "20px" ,border:"5px solid #ffff"}} />
                     </div>
                     <div className="post-content">
                         <time datetime="2019-04-06T13:53">15 Oct, 2019</time>
@@ -182,7 +182,7 @@ function Home() {
                         <Link className="post-btn" to="/uiux_design"><i className="fa fa-arrow-right"></i></Link>
                     </div>
                     <div className="post-thumb m-2">
-                        <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" }} />
+                        <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" , borderRadius: "20px" ,border:"5px solid #ffff" }} />
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@ function Home() {
                 <div className="single-rpost d-sm-flex align-items-center" data-aos="fade-left" data-aos-delay="200"
                     data-aos-duration="800">
                     <div className="post-thumb m-2">
-                        <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" }} />
+                        <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Post 1" style={{ width: "100%", height: "50vh" , borderRadius: "20px" ,border:"5px solid #ffff" }} />
                     </div>
                     <div className="post-content">
                         <time datetime="2019-04-06T13:53">15 Oct, 2019</time>
@@ -262,7 +262,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Basic Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Ideal for startups and small businesses</p>
                     <p>Responsive website with up to 5 pages</p>
                     <p>Basic design customization</p>
@@ -283,7 +283,7 @@ function Home() {
         <span>Monthly</span>
         <h2>Premium Plan</h2>
         <p className="desc">Description goes here</p>
-        <p className="price">$39.00</p>
+        {/* <p className="price">$39.00</p> */}
         <p>For businesses or e-commerce</p>
         <p>Responsive website with unlimited pages</p>
         <p>Customization and branding</p>
@@ -302,7 +302,7 @@ function Home() {
         <span>Monthly</span>
         <h2>Standard Plan</h2>
         <p className="desc">Description goes here</p>
-        <p className="price">$39.00</p>
+        {/* <p className="price">$39.00</p> */}
         <p>For growing businesses</p>
         <p>Responsive website with up to 10 pages</p>
         <p>Custom design tailored to your brand</p>
@@ -336,7 +336,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Basic Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Basic SEO optimization</p>
                     <p>Social media management (2 platforms)</p>
                     <p>Limited content creation (2 posts/month)</p>
@@ -355,7 +355,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Premium Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Comprehensive SEO optimization</p>
                     <p>Social media management (4 platforms)</p>
                     <p>Extensive content creation (8 posts/month)</p>
@@ -374,7 +374,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Standard Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Advanced SEO optimization</p>
                     <p>Social media management (3 platforms)</p>
                     <p>Regular content creation (4 posts/month)</p>
@@ -404,7 +404,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Basic Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                 {/* <p className="price">$39.00</p> */} 
                     <p>Ideal for small businesses or startups</p>
                     <p>Simple app development with essential functionalities</p>
                     <p>Basic user interface design</p>
@@ -421,7 +421,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Premium Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Designed for established businesses requiring advanced app features</p>
                     <p>Advanced app development with complex functionalities</p>
                     <p>High-quality user interface design with custom animations</p>
@@ -438,7 +438,7 @@ function Home() {
                     <span>Monthly</span>
                     <h2>Standard Plan</h2>
                     <p className="desc">Here goes some description</p>
-                    <p className="price">$39.00</p>
+                    {/* <p className="price">$39.00</p> */}
                     <p>Suitable for businesses seeking a comprehensive app solution</p>
                     <p>Customized app development with additional functionalities</p>
                     <p>Enhanced user interface designStandard support and maintenance</p>
@@ -463,7 +463,7 @@ function Home() {
         <div className="single-pricing text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600">
             <span>Monthly</span>
             <h2>Basic Plan</h2>
-            <p className="price">$39.00</p>
+            {/* <p className="price">$39.00</p> */}
             <p>Ideal for startups and small businesses</p>
             <p>Basic logo design</p>
             <p>2 design concepts</p>
@@ -478,7 +478,7 @@ function Home() {
         <div className="single-pricing text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
             <span>Monthly</span>
             <h2>Premium Plan</h2>
-            <p className="price">$39.00</p>
+            {/* <p className="price">$39.00</p> */}
             <p>For established businesses</p>
             <p>Premium logo design</p>
             <p>5 design concepts</p>
@@ -495,7 +495,7 @@ function Home() {
         <div className="single-pricing text-center" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600">
             <span>Monthly</span>
             <h2>Standard Plan</h2>
-            <p className="price">$39.00</p>
+            {/* <p className="price">$39.00</p> */}
             <p>For growing businesses</p>
             <p>Custom logo design</p>
             <p>3 design concepts</p>

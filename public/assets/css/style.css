@@ -570,6 +570,7 @@ background-size: cover;
      object-fit: cover;
   height: 100%;
    border: 5px solid #ffff; 
+   border-radius: 20px;
    box-shadow: 0 4px 8px rgba(106, 104, 104, 0.778), 0 6px 20px rgba(175, 169, 169, 0.959);
 }
 
