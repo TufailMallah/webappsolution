@@ -70,7 +70,7 @@ function Portfolio() {
               <div className="col-md-4">
                 <Link to="/web_development">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Gallery 4" style={{ width: "100%", height: "50vh" }} />
+                    <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Gallery 4" style={{ width: "100%", height: "auto" }} />
                     <div className="overlay">
                       <p>Web Development</p>
                     </div>
@@ -78,7 +78,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/app_development">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Gallery 5" style={{ width: "100%", height: "80vh" }} />
+                    <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Gallery 5" style={{ width: "100%", height: "auto" }} />
                     <div className="overlay">
                       <p>App Development</p>
                     </div>
@@ -96,7 +96,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/uiux_design">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Gallery 5" style={{ width: "100%", height: "70vh" }} />
+                    <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Gallery 5" style={{ width: "100%", height: "auto" }} />
                     <div className="overlay">
                       <p>UI/UX Design</p>
                     </div>
@@ -106,7 +106,7 @@ function Portfolio() {
               <div className="col-md-4">
                 <Link to="/brand_identity">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/brandidentity.jpg" alt="Gallery 1" style={{ width: "100%", height: "70vh" }} />
+                    <img className="img-fluid" src="/assets/images/brandidentity.jpg" alt="Gallery 1" style={{ width: "100%", height: "auto" }} />
                     <div className="overlay">
                       <p>Brand Identity</p>
                     </div>
@@ -114,7 +114,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/graphic_design">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Gallery 2" style={{ width: "100%", height: "45vh" }} />
+                    <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Gallery 2" style={{ width: "100%", height: "auto" }} />
                     <div className="overlay">
                       <p>Graphic Design</p>
                     </div>
@@ -130,213 +130,7 @@ function Portfolio() {
 
 
 
-    {/* <section>
-    <div class="untree_co-section pb-0" id="home-section">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-md-7">
-          <h1 class="heading gsap-reveal-hero "><strong>Minimal<span class="text-primary">.</span> Portfolio</strong></h1>
-          <h2 class="subheading gsap-reveal-hero mb-4">
-            A minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. Read our <a href="https://untree.co/license" target="_blank">template license</a> here.
-          </h2>
-          <p class="gsap-reveal-hero"><a href="https://untree.co/" target="_blank" class="btn btn-outline-black">More free templates here</a></p>    
-        </div>
-      </div>
-      
-    </div>
-  </div>
-
-
-  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
-    <div class="container">
-
-
-      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
-      <div id="portfolio-single-holder"></div>
-
-      <div class="portfolio-wrapper">
-
-        <div id="posts" class="row">
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Obsessed Book</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Book Binding</h3>
-                  <p>illustration, application</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Fresh Fruits</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" style={{height}}/>
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Powerful Speaker</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Wireless Headset</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Black & White Cubic</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Nike Shoe</h3>
-                  <p>illustration, application</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Old Typewriter</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Walking Man</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Progress Journal</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>The Dog</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Beautiful Woman</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Book Binding</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="assets/images/gallery2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-
-
-       
-      </div>
-    </div>
-    </section> */}
+    
             <Footer />
         </Fragment>
     );
