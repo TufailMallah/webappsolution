@@ -17,7 +17,7 @@ function Home() {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide slide-content d-flex align-items-center">
                     <div className="single-slide">
-                      <h1 data-aos="fade-right" data-aos-delay="200">
+                      <h1 className="mb-3 mt-3" data-aos="fade-right" data-aos-delay="200">
                         WEBSITE APP Sollution
                       </h1>
                       <p data-aos="fade-right" data-aos-delay="600">
@@ -50,7 +50,7 @@ function Home() {
                   </div>
                   <div className="swiper-slide slide-content d-flex align-items-center">
                     <div className="single-slide">
-                      <h1 data-aos="fade-right" data-aos-delay="200">
+                      <h1 className="mb-3 mt-3" data-aos="fade-right" data-aos-delay="200">
                         WEBSITE APP Sollution
                       </h1>
                       <p data-aos="fade-right" data-aos-delay="600">
