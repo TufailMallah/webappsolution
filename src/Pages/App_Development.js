@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Navbar from './Navbar';
 import Footer from './Footer'; 
-import { height } from "@fortawesome/free-solid-svg-icons/fa0";
+
  
 
 function App_Development() {
