@@ -70,7 +70,7 @@ function Portfolio() {
               <div className="col-md-4 m-0 p-0">
                 <Link to="/web_development">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Gallery 4" style={{ width: "100%", height: "auto" }} />
+                    <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Gallery 4" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>Web Development</p>
                     </div>
@@ -78,7 +78,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/app_development">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Gallery 5" style={{ width: "100%", height: "auto" }} />
+                    <img className="img-fluid" src="/assets/images/appdeve.jpg" alt="Gallery 5" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>App Development</p>
                     </div>
@@ -88,7 +88,7 @@ function Portfolio() {
               <div className="col-md-4 m-0 p-0">
                 <Link to="/digital_marketing">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/digital_marketing.jpeg" alt="Gallery 3" style={{ width: "100%", height: "45vh" }} />
+                    <img className="img-fluid" src="/assets/images/digital_marketing.jpeg" alt="Gallery 3" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>Digital Marketing</p>
                     </div>
@@ -96,7 +96,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/uiux_design">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Gallery 5" style={{ width: "100%", height: "auto" }} />
+                    <img className="img-fluid" src="/assets/images/UIUX.jpg" alt="Gallery 5" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>UI/UX Design</p>
                     </div>
@@ -106,7 +106,7 @@ function Portfolio() {
               <div className="col-md-4 m-0 p-0">
                 <Link to="/brand_identity">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/brandidentity.jpg" alt="Gallery 1" style={{ width: "100%", height: "auto" }} />
+                    <img className="img-fluid" src="/assets/images/brandidentity.jpg" alt="Gallery 1" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>Brand Identity</p>
                     </div>
@@ -114,7 +114,7 @@ function Portfolio() {
                 </Link>
                 <Link to="/graphic_design">
                   <div className="image-container">
-                    <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Gallery 2" style={{ width: "100%", height: "auto" }} />
+                    <img className="img-fluid" src="/assets/images/graphic.jpg" alt="Gallery 2" style={{ width: "100%", height: "50vh" }} />
                     <div className="overlay">
                       <p>Graphic Design</p>
                     </div>

@@ -55,7 +55,7 @@ function Footer() {
                                     <Link to="">jQuery</Link>
                                 </div>
                                 <div className="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
-                                    <h6 className="widget-title">Subscribe us</h6>
+                                    <h6 className="widget-title mt-3">Subscribe us</h6>
                                     <p>Sign up for our mailing list to get latest updates and offers</p>
                                     <form className="" method="get">
                                         <div className="input-group">
