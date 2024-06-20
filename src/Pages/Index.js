@@ -126,7 +126,7 @@ function Home() {
                         
                         </div>
                     </div>
-                    <br/>
+                    {/* <br/> */}
                     <button className="btn btn-primary mb-2">on click</button>
                 </div>
                 
