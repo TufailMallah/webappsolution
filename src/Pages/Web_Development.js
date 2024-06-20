@@ -91,28 +91,32 @@ function Web_Development() {
               <div className="col-md-6 mb-4">
                 <div className="image-container">
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/web4.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image mb-3"
+                    style={{height:"26vh"}}
                   />
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/web2.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image"
+                    style={{height:"26vh"}}
                   />
                 </div>
               </div>
               <div className="col-md-6 mb-4">
                 <div className="image-container">
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/web3.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image mb-3"
+
                   />
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/web5.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image"
+                    style={{height:"26vh"}}
                   />
                 </div>
               </div>
@@ -122,9 +126,10 @@ function Web_Development() {
           <div className="col-md-6 mb-4">
             <div className="image-container">
               <img
-                src="/assets/images/webdev.jpeg"
+                src="/assets/images/web1.jpg"
                 alt="UI/UX Design"
                 className="img-fluid custom-image"
+                
               />
             </div>
           </div>

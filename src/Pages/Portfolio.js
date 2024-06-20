@@ -62,12 +62,12 @@ function Portfolio() {
 
     <section>
       <div className="container">
-        <div className="row">
+        <div className="row m-1">
           <div className="col-md-12 mt-5 mb-5">
             <h1 className="text-center">Portfolio</h1>
             <p>What is a basic definition of text? Text is the exact, original words written by an author. Text is also a specific work as written by the original author. Text is also commonly used to refer to a text message or to send a text message. Text has several other senses as a noun.</p>
-            <div className="row">
-              <div className="col-md-4">
+            <div className="row mt-5">
+              <div className="col-md-4 m-0 p-0">
                 <Link to="/web_development">
                   <div className="image-container">
                     <img className="img-fluid" src="/assets/images/webdev.jpeg" alt="Gallery 4" style={{ width: "100%", height: "auto" }} />
@@ -85,7 +85,7 @@ function Portfolio() {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 m-0 p-0">
                 <Link to="/digital_marketing">
                   <div className="image-container">
                     <img className="img-fluid" src="/assets/images/digital_marketing.jpeg" alt="Gallery 3" style={{ width: "100%", height: "45vh" }} />
@@ -103,7 +103,7 @@ function Portfolio() {
                   </div>
                 </Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 m-0 p-0">
                 <Link to="/brand_identity">
                   <div className="image-container">
                     <img className="img-fluid" src="/assets/images/brandidentity.jpg" alt="Gallery 1" style={{ width: "100%", height: "auto" }} />

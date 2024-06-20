@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Navbar from './Navbar';
 import Footer from './Footer'; 
+import { height } from "@fortawesome/free-solid-svg-icons/fa0";
  
 
 function App_Development() {
@@ -107,12 +108,12 @@ function App_Development() {
               <div className="col-md-6 mb-4">
                 <div className="image-container">
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/app1.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image mb-3"
                   />
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/app5.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image"
                   />
@@ -121,14 +122,15 @@ function App_Development() {
               <div className="col-md-6 mb-4">
                 <div className="image-container">
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/app4.jpg"
                     alt="UI/UX Design"
                     className="img-fluid custom-image mb-3"
+                    style={{height:"26vh"}}
                   />
                   <img
-                    src="/assets/images/webdev.jpeg"
+                    src="/assets/images/app3.jpg"
                     alt="UI/UX Design"
-                    className="img-fluid custom-image"
+                    className="img-fluid custom-image" 
                   />
                 </div>
               </div>
@@ -138,9 +140,10 @@ function App_Development() {
           <div className="col-md-6 mb-4">
             <div className="image-container">
               <img
-                src="/assets/images/webdev.jpeg"
+                src="/assets/images/app2.jpg"
                 alt="UI/UX Design"
                 className="img-fluid custom-image"
+                
               />
             </div>
           </div>
