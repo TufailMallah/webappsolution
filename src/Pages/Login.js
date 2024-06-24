@@ -83,7 +83,9 @@ function Login() {
                         <div className="col-md-6 col-lg-6">
                             
                             <div className={`${Stylo['form-container']} shadow p-4 rounded`}>
-                                <img src="assets/images/logo.png" alt="Client" />
+                                <img src="assets/images/logo.png" alt="Client" style={{
+                                    width:"50%"
+                                }}/>
                                 <h3 className="text-center mb-4">Sign In</h3>
                                 <div className="d-flex justify-content-center mb-4">
                                 {loading && <ClipLoader color={"#9604a9"} loading={loading} size={50} />}

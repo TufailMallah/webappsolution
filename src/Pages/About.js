@@ -33,7 +33,7 @@ function About() {
 
             <section className="about">
                 <div className="container">
-                    <div className="row mt-5 mb-5">
+                    <div className="row mt-5 mb-5 m-2">
                         <div className="col-12 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <h1 className="text-center">About Us</h1>
                             <p className="text-center">WebsiteAppSolutions: Turning Ideas into Experiences.</p>
@@ -69,8 +69,8 @@ function About() {
             </section>
 
             <section className="stats-section">
-                <div className="container">
-                    <div className="row text-center mb-5">
+            <div className="container" >
+                    <div className="row text-center mb-5" >
                         <div className="col-md-12 animate__animated animate__fadeInUp">
                             <h1>We always try to understand</h1>
                             <h1>users expectation</h1>
@@ -115,14 +115,19 @@ function About() {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-md-8 mt-5 mb-5 bg-white text-dark rounded animate__animated animate__fadeInUp" data-wow-delay="0.5s">
-                            <div className="contact-section text-dark p-4 rounded">
-                                <h3>Have any questions about us?</h3>
-                                <p>Don't hesitate to contact us</p>
-                                <a href="/contact" className="btn btn-purple">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
+  <div
+    className="col-md-8 mt-5 mb-5  text-dark animate__animated animate__fadeInUp"
+    data-wow-delay="0.5s"
+    style={{ borderRadius: '50px' }}
+  >
+    <div className="contact-section text-dark p-4">
+      <h3>Have any questions about us?</h3>
+      <p>Don't hesitate to contact us</p>
+      <a href="/contact" className="btn btn-purple">Contact Us</a>
+    </div>
+  </div>
+</div>
+
                 </div>
             </section>
 

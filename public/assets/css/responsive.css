@@ -237,7 +237,8 @@
 ------------------------------------*/
 @media (min-width: 1200px) {
   .navbar-brand img {
-    width: auto;
+    width: 150px;
+
   }
   .title h1 {
     font-size: 58px;

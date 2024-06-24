@@ -1337,7 +1337,8 @@ background-size: cover;
   background-color: white; /* Ensure background is white */
   color: black; /* Ensure text color is black */
   padding: 20px; /* Optional: Add padding for better spacing */
-  border-radius: 20 px; /* Optional: Add border-radius for rounded corners */
+  border-radius: 20px; /* Optional: Add border-radius for rounded corners */
+  text-align: center;
 }
 
 .contact-section h3 {
